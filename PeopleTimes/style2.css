@@ -1,0 +1,148 @@
+main{
+    height: 100vh;
+    background-image: url(img/ciemny-fiolet-z-tlem-pedzla_674520-12.avif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    margin:0;
+}
+main h1{
+    margin-top:0%;
+    color: transparent;
+    background: #232930;
+    text-align:center;
+}
+.item img{
+    width:100px ;
+}
+.item .title{
+    color: rgb(255, 255, 255);
+    margin-left: -20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 35px;
+}
+.item .price{
+color: rgb(255, 255, 255);
+margin-left: 90px;
+margin-top: 0;
+margin-bottom: 0;
+}
+.item {
+ display: flex;
+ font-size: 35px;
+ align-items: center;
+ margin-top: 10px;
+}
+#top {
+color:white ;
+font-size:25px ;
+text-shadow:5px 5px 5px rgba(131, 129, 129, 0.719) ;
+font-weight: 900;
+margin-left:30px ;
+}
+#items {
+border: 3px solid rgb(113, 22, 216);
+padding:30px ;
+width: 30%;
+}
+.item:hover {
+background:linear-gradient(rgb(172, 9, 236),rgb(109, 28, 146), rgb(155, 95, 192),rgb(155, 118, 180))grey ;
+cursor: pointer;
+}
+#info {
+    width: 45%;
+    padding:30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 25px;
+     
+}
+section{
+    display: flex;
+    gap: 50px;
+}
+#info p{
+margin:0;
+text-align:left;
+}
+#Stoimost{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+button:hover{
+    box-shadow:2px 2px 10px 2px #6a2fb6,-2px -2px 10px 2px #6a2fb6;
+    cursor: pointer;
+}
+#capcha {
+    background-image: url(https://static.wikia.nocookie.net/five-nights-at-freddys-rus/images/c/c9/Static.png/revision/latest/scale-to-width-down/1200?cb=20180715134156&path-prefix=ru);
+    background-size:cover;
+    width:100%;
+    height: 200px;
+    display: flex;
+}
+#capcha div{
+    display: flex;
+    margin:auto;
+    gap:5%;
+    width: 100%;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+#capcha span{
+    user-select: none;
+   color: rgb(100, 100, 100);
+}
+#capcha span:first-child{
+    transform: rotate(-45deg);
+    font-size: 50px;
+    margin-top: -50px;
+}
+#capcha span:nth-child(2){
+    transform: rotate(45deg);
+    font-size: -50px;
+    margin-top: 50px;
+}
+#capcha span:nth-child(3){
+    transform: rotate(-15deg);
+    font-size: 35px;
+    margin-top: -20px;
+}
+#capcha span:nth-child(4){
+    transform: rotate(60deg);
+    font-size: 60px;
+    margin-top: 40px;
+}
+#capcha span:nth-child(5){
+    transform: rotate(45deg);
+    font-size: 55px;
+    margin-top: -50px;
+}
+#vvod {
+    background-color:rgb(99, 99, 236) ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+} 
+#div2 {
+    position: fixed;
+    top: 0%;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background-color:   rgb(16, 142, 252);                                                    
+    display: flex;
+}
+#div {
+    margin:auto;
+    width:100%;
+}
+#textVvod {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 15px;
+}

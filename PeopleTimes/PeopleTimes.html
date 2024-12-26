@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная | PeopleTime</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="PeopleTime.js"></script>
+</head>
+<body onload="capcha()">
+    <main>
+        <h1><img src="img/Desktop Screenshot 2024.11.28 - 18.57.25.04.png" alt=""></h1>
+        <section>
+
+        
+        <div id="items">
+            <h3 id="top"> выберете товар:</h3>
+            <div class="item" onclick="Scroller(1)">
+                <img src="img/maxresdefault.png" alt="">
+                <p class="title">
+                    элита
+                </p>
+                    <p class="price">
+                     от 19 руб
+                    </p>
+            </div>
+            <div class="item" onclick="Scroller(2)">
+                <img src="img/hqdefault.png" alt="" style="width: 76px;margin-left: 11px;"> 
+                <p class="title" style="margin-left: -8px;">
+                    страж
+                </p>
+                    <p class="price">
+                     от 39 руб
+                    </p>
+            </div>
+            <div class="item" onclick="Scroller(3)">
+                <img src="img/geroy.png" alt="" style="width: 58px;margin-left: 19px;"> 
+                <p class="title" style="margin-left: 3px;">
+                    герой
+                </p>
+                    <p class="price">
+                     от 79 руб
+                    </p>
+            </div>
+        </div>
+        <div id="info">
+            <p> 
+            Описание товара:
+        </p>
+     <p id="P1">  ⚕ Префикс в чате и табе: [Элита] ВашНик</p> 
+     <p id="K2"> › /kit Элита ⇨ Получить набор Элита</p>
+     <p id="S3"> › /salary ⇨ Получить зарплату</p> 
+     <p id="C4"> › /crawl ⇨ Сменить позу: красться</p> 
+
+     <p style="color: rgb(165, 20, 20);font-weight: 900;margin-top: 20px; ;"> Прочее:</p> 
+     <p id="T1"> Доступно Точек домов: 2</p> 
+     <p id="R2"> Регионов (Анка): 3 блоков</p> 
+     <p id="A3"> Слотов на Аукционе: 6</p> 
+     <p id="Z4"> Задержка телепорта: 7 сек</p>
+     <div id="Stoimost">    
+     <p style="color: rgb(165, 20, 20);">Стоимость: <span style="color: aliceblue;">19 руб</span></p>
+     </div> 
+     <button style="font-size: 35px;color: rgb(255, 255, 255);
+     font-weight: 900;background-color: transparent;border: 2px solid rgba(65, 0, 170, 0.5);
+     margin-left:75%;"> приобрести</button>
+        </div>
+    </section>
+    </main>
+   <div id="div2"><div id="div">
+    <section id="capcha">
+        <div><span>1</span> <span>5</span><span>9</span><span>2</span><span>8</span> </div>
+        </section>
+        <section id="vvod">
+            <input type="text" id="textVvod" maxlength="5" oninput="Enter()"
+            placeholder="введите цифры капчи" >
+        </section>
+        </div>
+    </div>
+</body>
+</html>
